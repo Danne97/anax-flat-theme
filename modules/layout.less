@@ -1,0 +1,46 @@
+@import "grid-helpers.less";
+
+.inner-wrap {
+    .container();
+    max-width: 900px;
+}
+
+.vgrid, .route-grid {
+    .showGrid(900px);
+}
+
+.row {
+    .row();
+}
+
+.main {
+    .column(12);
+
+}
+
+.after-main {
+    .column(8);
+    .push(2);
+}
+
+.footer-column {
+    .column(4);
+
+}
+
+.site-footer {
+    .column(12);
+}
+
+.flash-wrap img {
+    width: 900px;
+    margin-left: 9px;
+}
+
+.put-left {
+    .column(6);
+}
+
+.put-right {
+    .column(6);
+}
