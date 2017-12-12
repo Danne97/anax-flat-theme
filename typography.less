@@ -1,0 +1,35 @@
+/**
+* Anax Flat theme.
+*/
+@import url(base.less);
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+@back_color_1: #000000; //svart
+@back_color_2: #111111; //svart, ljusast
+@back_color_3: #070707; //svart, lite ljusare
+@text_color: #31f935; //grön
+
+
+html {
+    background-color: @back_color_1;
+    color: @text_color;
+}
+
+.row {
+    background-color: @back_color_3;
+}
+
+.outer-wrap-footer .row {
+    background-color: @back_color_2;
+}
+
+.inner-wrap-header .row {
+    background-color: @back_color_2;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif !important;
+    code {
+        background-color: black;
+    }
+}
